@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "MV Faseyha";
+    src: url("/assets/main/fonts/MV_Faseyha.otf");
+    src: url("/assets/main/fonts/MV_Faseyha.otf") format("opentype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "MV Typewriter";
+    src: url("/assets/main/fonts/mvtyper.ttf");
+    src: url("/assets/main/fonts/mvtyper.ttf") format("truetype");
+    font-style: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.main-nav a,
+.subscribe-button,
+.page-title,
+.post-meta,
+.read-next-story .post:before,
+.pagination,
+.post-card-excerpt,
+.post-content,
+.site-footer {
+    font-family: "MV Typewriter", sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+h1,
+h2 {
+    direction: rtl;
+    /* font-size: 20px; */
+    /* line-height: 35px; */
+    font-size: 46px;
+    line-height: 85px;
+    padding: 0 5px;
+    color: #0a0d0d;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    direction: rtl;
+    /* font-size: 20px; */
+    /* line-height: 35px; */
+    /* font-size: 46px;
+    line-height: 85px; */
+    padding: 0 5px;
+    color: #0a0d0d;
+}
+
+.links {
+    font-size: 13pt;
+    line-height: 25px;
+}
+
+.content {
+    color: #282325;
+    font-size: 13pt;
+    line-height: 45px;
+}
+
+/* This is necessary to not mess up share icons at bottom of posts */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "casper-icons", "Open Sans", sans-serif;
+}

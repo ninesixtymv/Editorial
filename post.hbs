@@ -10,7 +10,7 @@ into the {body} of the default.hbs template --}}
         <span class="date">{{date format="MMMM D, YYYY"}}</span>
         <h1>{{title}}</h1>
         {{#if custom_excerpt}}
-            <p class="content">{{custom_excerpt}}</p>
+        <p class="content">{{custom_excerpt}}</p>
         {{/if}}
     </header>
 
@@ -39,7 +39,7 @@ into the {body} of the default.hbs template --}}
                 {{#if profile_image}}
                 <img class="author-profile-image" src="{{profile_image}}" alt="{{name}}" />
                 {{/if}}
-                <section class="author-box-content">
+                {{!-- <section class="author-box-content">
                     <div class="author-box-label">Author</div>
                     <h5 class="author-box-name">{{name}}</h5>
                     {{#if bio}}
@@ -47,7 +47,7 @@ into the {body} of the default.hbs template --}}
                     {{else}}
                     <p>Read more posts by this author.</p>
                     {{/if}}
-                </section>
+                </section> --}}
             </a>
             {{/foreach}}
         </div>
