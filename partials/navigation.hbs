@@ -1,7 +1,7 @@
 <nav id="menu">
-    <header class="major">
+    {{!-- <header class="major">
         <h2>{{t "Menu"}}</h2>
-    </header>
+    </header> --}}
     <ul class="links">
         {{#foreach navigation}}
         <li class="nav-{{slug}} {{#if current}}active{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>

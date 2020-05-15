@@ -4,7 +4,7 @@
     "Back": "ފަހަތަށް",
     "Newer Posts": "އައު ލިޔުންތައް",
     "Older Posts": "ކުރީގެ ލިޔުންތައް",
-    "Recent posts": "އައު ލިޔުންތައް",
+    "Recent posts": "ފަހުގެ ލިޔުންތައް",
     "Page {page} of {pages}": "ޕޭޖް {pages} ގެ {page}",
     "Subscribe": "ސަބްސްކްރައިބްކުރައްވާ",
     "Subscribe to {blogtitle}": "Subscribe to {blogtitle}",
@@ -34,5 +34,6 @@
     "% posts": "% ލިޔުން",
     "1 min read": "1 މިނެޓުގެ ކިޔުމެއް",
     "% min read": "% މިނެޓުގެ ކިޔުމެއް",
-    "Full Story": "ތަފުސީލު"
+    "Full Story": "ތަފުސީލު",
+    "A collection of": "ޖުމްލަ"
 }
